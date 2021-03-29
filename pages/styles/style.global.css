@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.background {
+  background: url("https://demo.phlox.pro/agency-web/wp-content/uploads/sites/129/2019/11/bg-1.jpg");
+
+  height: 1000px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.blog1:hover {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(117, 19, 93, 0.73),
+      rgba(252, 224, 70, 0.52)
+    ),
+    url("/photographer-journalist-working-studion-agency-PWTYFR5-768x768.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+}
+.blog2:hover {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(117, 19, 93, 0.73),
+      rgba(252, 224, 70, 0.52)
+    ),
+    url("/architect-colleagues-working-in-office-HMYR4KD-1-768x768.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+}
+.blog3:hover {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(117, 19, 93, 0.73),
+      rgba(252, 224, 70, 0.52)
+    ),
+    url("/female-office-staff-are-summarizing-the-number-in-6NXGYBK-768x768.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-image: url("/Clip@2x-1024x689.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+}
+.wave-last {
+  background-image: url("https://demo.phlox.pro/agency-web/wp-content/uploads/sites/129/2019/10/footer-bg-1.svg");
+  background-size: cover;
+  height: 800px;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.hello {
+  background-color: rgba(0, 0, 0, 0.45);
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 40%,
+    rgba(255, 255, 255, 0.4) 50%,
+    rgba(255, 255, 255, 0) 60%
+  );
+}
