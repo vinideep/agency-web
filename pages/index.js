@@ -32,7 +32,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        <section className="background md:h-4/5 relative overflow-hidden bg-fixed bg-center bg-cover h-auto max-h-full">
+        <section className="background relative overflow-hidden bg-fixed bg-center bg-cover h-auto max-h-full">
           <div className="absolute -top-2/3 -left-24">
             <img
               className="pt-24"
@@ -51,8 +51,8 @@ export default function Home() {
               src="https://demo.phlox.pro/agency-web/wp-content/uploads/sites/129/2019/10/Clip-2.svg"
             />
           </div>
-          <div className="bg-gray-200 flex m-auto pr-2">
-            <div className="absolute bottom-4">
+          <div className="bg-gray-200 flex m-auto ml-2">
+            <div className="absolute bottom-4 right-1/2">
               <img
                 src="/1287105.png"
                 alt="drop symbol"
