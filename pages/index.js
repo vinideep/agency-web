@@ -1,6 +1,7 @@
 import Head from "next/head";
 import React, { useState } from "react";
 import Carousel from "react-multi-carousel";
+import PlasmicLoader from "@plasmicapp/loader";
 import "react-multi-carousel/lib/styles.css";
 
 export default function Home() {
@@ -31,6 +32,7 @@ export default function Home() {
         <title>Agency-web</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <PlasmicLoader component={'Home'} componentProps={{}} />;
       <div>
         <section className="background relative overflow-hidden bg-fixed bg-center bg-cover h-auto max-h-full">
           <div className="absolute -top-2/3 -left-24">
