@@ -53,7 +53,7 @@ export default function Home() {
               src="https://demo.phlox.pro/agency-web/wp-content/uploads/sites/129/2019/10/Clip-2.svg"
             />
           </div>
-          <div className="bg-gray-200 flex m-auto ml-2">
+          <div className="bg-gray-200 flex m-auto ml-">
             <div className="absolute bottom-4 right-1/2">
               <img
                 src="/1287105.png"
