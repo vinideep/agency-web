@@ -1,7 +1,6 @@
 import Head from "next/head";
 import React, { useState } from "react";
 import Carousel from "react-multi-carousel";
-import PlasmicLoader from "@plasmicapp/loader";
 import "react-multi-carousel/lib/styles.css";
 
 export default function Home() {
